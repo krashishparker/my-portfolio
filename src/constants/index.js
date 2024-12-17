@@ -64,7 +64,7 @@ export const EXPERIENCES = [
 ];
 */
 export const CONTACT = {
-  address: "Bengaluru Karnatka",
+  address: "Bengaluru Karnataka",
   phoneNo: "+91-9304163063",
   email: "krashishparker@gmail.com",
 };

@@ -1,5 +1,5 @@
 import { HERO_CONTENT } from "../constants";
-import profilePic from "../assets/kevinRushProfile.png";
+import profilePic from "../assets/prof_pic.jpeg";
 import { motion } from "framer-motion"
 
 const container=(delay)=>({
@@ -50,7 +50,11 @@ const Hero = () => {
         initial={{ x: 100 , opacity: 0}} 
         animate={{ x: 0, opacity: 1}}
         transition={{ duration: 1 , delay: 1.2}}
-        src={profilePic} alt="Ashish Kumar" />
+        src={profilePic} 
+        alt="Ashish Kumar" 
+        className="w-full h-auto"
+        style={{ clipPath: "inset(5% 5% 35% 5%)" }}
+        />
       </div>
      </div>
     </div>
